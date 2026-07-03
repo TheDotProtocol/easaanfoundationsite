@@ -23,10 +23,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "The Story", path: "/story" },
-    { name: "Founders", path: "/founders" },
+    { name: "Leadership", path: "/founders" },
     { name: "Ecosystem", path: "/ecosystem" },
     { name: "Global Impact", path: "/impact" },
     { name: "Governance", path: "/transparency" },
+  ];
+
+  const footerNavLinks = [
+    { name: "About", path: "/story" },
+    { name: "Leadership & Governance", path: "/founders" },
+    { name: "Institutional Charter", path: "/transparency" },
+    { name: "Portfolio", path: "/ecosystem" },
+    { name: "Impact", path: "/impact" },
+    { name: "Transparency", path: "/transparency" },
+    { name: "News", path: "/story" },
+    { name: "Careers", path: "/founders" },
+    { name: "Privacy Policy", path: "/transparency" },
+    { name: "Terms of Use", path: "/transparency" },
+    { name: "Accessibility", path: "/transparency" },
+    { name: "Contact", path: "/transparency" },
   ];
 
   return (
@@ -94,50 +109,62 @@ export function Layout({ children }: { children: React.ReactNode }) {
       {/* Footer */}
       <footer className="border-t border-white/10 bg-black py-16 mt-24">
         <div className="container mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-            <div className="col-span-1 md:col-span-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-14">
+            {/* Left */}
+            <div>
               <Link href="/" className="flex flex-col mb-6">
                 <span className="font-serif text-2xl tracking-widest text-gradient-gold font-semibold uppercase">EASAAN</span>
                 <span className="text-[0.6rem] tracking-[0.3em] text-muted-foreground uppercase">Foundation</span>
               </Link>
-              <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
-                We don't build companies. We build a lifetime.<br/><br/>
-                The Foundation exists to ensure one child grows into a leader who improves the lives of millions, designed to preserve values, innovation, family, compassion and responsibility across generations for 200+ years.
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                &copy; {new Date().getFullYear()} Easaan Foundation.<br />
+                A Perpetual Stewardship Institution.<br />
+                A Unit of AR Holdings Group Corporation.
               </p>
             </div>
+
+            {/* Middle */}
             <div>
-              <h4 className="text-foreground font-serif tracking-widest uppercase text-sm mb-6">Explore</h4>
-              <ul className="space-y-4">
-                {navLinks.slice(0, 4).map(link => (
-                  <li key={link.path}>
-                    <Link href={link.path} className="text-muted-foreground hover:text-primary text-sm transition-colors uppercase tracking-wider">{link.name}</Link>
-                  </li>
-                ))}
-              </ul>
+              <h4 className="text-foreground font-serif tracking-widest uppercase text-sm mb-6">Official Headquarters</h4>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                1075 Terra Bella Avenue<br />
+                Mountain View<br />
+                California 94043<br />
+                United States
+              </p>
             </div>
+
+            {/* Right */}
             <div>
-              <h4 className="text-foreground font-serif tracking-widest uppercase text-sm mb-6">Institution</h4>
-              <ul className="space-y-4">
-                {navLinks.slice(4).map(link => (
-                  <li key={link.path}>
-                    <Link href={link.path} className="text-muted-foreground hover:text-primary text-sm transition-colors uppercase tracking-wider">{link.name}</Link>
-                  </li>
-                ))}
-              </ul>
+              <h4 className="text-foreground font-serif tracking-widest uppercase text-sm mb-6">Official Contact</h4>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                1-800-EASAAN<br />
+                contact@easaanfoundation.com
+              </p>
             </div>
           </div>
-          
-          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-muted-foreground text-xs tracking-widest uppercase">
-              &copy; {new Date().getFullYear()} The Easaan Foundation. A Perpetual Legacy.
+
+          {/* Bottom Navigation */}
+          <div className="pt-8 border-t border-white/10 flex flex-wrap gap-x-6 gap-y-3 justify-center md:justify-start">
+            {footerNavLinks.map((link, i) => (
+              <Link
+                key={`${link.path}-${i}`}
+                href={link.path}
+                className="text-muted-foreground hover:text-primary text-xs uppercase tracking-widest transition-colors"
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+
+          {/* Bottom Disclaimer */}
+          <div className="mt-10 pt-8 border-t border-white/10">
+            <p className="text-muted-foreground/60 text-xs leading-relaxed max-w-4xl">
+              The Easaan Foundation operates as a perpetual stewardship institution within the AR Holdings Group
+              ecosystem. The Foundation provides long-term strategic stewardship, institutional governance and
+              responsible oversight for designated enterprises and humanitarian initiatives while preserving its
+              mission of advancing innovation, education, healthcare, sustainability and long-term societal impact.
             </p>
-            <div className="flex gap-4 text-xs text-muted-foreground uppercase tracking-widest">
-              <span>Kindness</span>
-              <span className="text-primary">•</span>
-              <span>Integrity</span>
-              <span className="text-primary">•</span>
-              <span>Innovation</span>
-            </div>
           </div>
         </div>
       </footer>

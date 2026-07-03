@@ -1,0 +1,265 @@
+############################################################
+GLOBAL FOOTER STANDARD
+############################################################
+
+Replace the footer across every page with a premium institutional footer.
+
+The footer should feel similar to those used by Apple, Microsoft, BlackRock, Google and other multinational organizations.
+
+------------------------------------------------------------
+
+LEFT SECTION
+
+© 2026 Easaan Foundation.
+
+A Perpetual Stewardship Institution.
+
+A Unit of AR Holdings Group Corporation.
+
+------------------------------------------------------------
+
+MIDDLE SECTION
+
+1075 Terra Bella Avenue
+
+Mountain View
+
+California 94043
+
+United States
+
+Official Headquarters
+
+------------------------------------------------------------
+
+RIGHT SECTION
+
+Official Contact
+
+1-800-EASAAN
+
+contact@easaanfoundation.com
+
+------------------------------------------------------------
+
+BOTTOM NAVIGATION
+
+About
+
+Leadership & Governance
+
+Institutional Charter
+
+Portfolio
+
+Impact
+
+Transparency
+
+News
+
+Careers
+
+Privacy Policy
+
+Terms of Use
+
+Accessibility
+
+Contact
+
+------------------------------------------------------------
+
+BOTTOM DISCLAIMER
+
+The Easaan Foundation operates as a perpetual stewardship institution within the AR Holdings Group ecosystem.
+
+The Foundation provides long-term strategic stewardship, institutional governance and responsible oversight for designated enterprises and humanitarian initiatives while preserving its mission of advancing innovation, education, healthcare, sustainability and long-term societal impact.
+
+------------------------------------------------------------
+
+DESIGN
+
+Premium
+
+Luxury
+
+Corporate
+
+Institutional
+
+Elegant
+
+Minimal
+
+Responsive
+
+Professional
+
+No bright colours.
+
+No oversized icons.
+
+No unnecessary animations.
+
+Use subtle premium typography.
+
+Footer should remain consistent across every page.
+
+############################################################
+LEADERSHIP & GOVERNANCE
+############################################################
+
+Remove the current Founders page completely.
+
+Replace it with a premium institutional page titled:
+
+Leadership & Governance
+
+The page must read as though it belongs to a globally recognised multinational institution.
+
+Never write in first person.
+
+Never use emotional storytelling.
+
+Never mention family relationships.
+
+Never describe personal history.
+
+The focus is institutional governance.
+
+------------------------------------------------------------
+
+INTRODUCTION
+
+Leadership & Governance
+
+The Easaan Foundation is governed through a long-term stewardship framework designed to preserve institutional integrity, strategic continuity and responsible leadership across generations.
+
+Operating within the AR Holdings Group ecosystem, the Foundation provides governance, oversight and strategic direction for an expanding portfolio of purpose-driven enterprises.
+
+Its governance model is founded upon principles of transparency, accountability, disciplined execution, ethical leadership and long-term value creation.
+
+------------------------------------------------------------
+
+SECTION
+
+Institutional Governance
+
+Explain that the Foundation follows internationally recognised principles of governance through clearly defined leadership responsibilities, oversight mechanisms and strategic planning frameworks.
+
+Discuss
+
+• Governance
+• Accountability
+• Transparency
+• Risk Management
+• Long-Term Planning
+• Ethical Leadership
+• Institutional Continuity
+
+------------------------------------------------------------
+
+SECTION
+
+Strategic Stewardship
+
+Describe the Foundation's responsibility to ensure that every enterprise remains aligned with the institution's constitutional purpose.
+
+Discuss
+
+Innovation
+
+Operational Excellence
+
+Capital Allocation
+
+Portfolio Oversight
+
+Research
+
+Technology
+
+Education
+
+Healthcare
+
+Consumer Products
+
+Environmental Sustainability
+
+Community Development
+
+------------------------------------------------------------
+
+SECTION
+
+Governance Framework
+
+Create premium cards for
+
+Executive Office
+
+Board of Trustees
+
+Strategic Advisory Council
+
+Audit & Risk Committee
+
+Compliance & Ethics Office
+
+Investment Committee
+
+Institutional Secretariat
+
+Corporate Affairs
+
+Each card should explain the purpose of the governance body.
+
+Do not fabricate names or current office holders. Present these as governance functions and use placeholders until appointments are made.
+
+------------------------------------------------------------
+
+SECTION
+
+Institutional Principles
+
+Present the Foundation's governing principles.
+
+Integrity
+
+Transparency
+
+Innovation
+
+Responsible Stewardship
+
+Operational Excellence
+
+Sustainability
+
+Long-Term Thinking
+
+Global Citizenship
+
+Human-Centric Innovation
+
+Intergenerational Responsibility
+
+------------------------------------------------------------
+
+FINAL SECTION
+
+Institutional Commitment
+
+"The Easaan Foundation is committed to responsible governance, disciplined execution and the long-term stewardship of enterprises that contribute meaningfully to society.
+
+Its institutional framework is designed to preserve purpose, strengthen accountability and enable sustainable growth for generations to come."
+
+############################################################
+
+OBJECTIVE
+
+The Leadership & Governance page should leave visitors believing they are viewing the governance section of a mature multinational institution rather than the biography of a founder.
+
+Every sentence should reinforce professionalism, institutional credibility and long-term strategic leadership.
