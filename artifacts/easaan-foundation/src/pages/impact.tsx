@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Globe, Users, TreePine, Utensils, BookOpen, Building2, HeartPulse, Droplets, Cpu, FlaskConical } from "lucide-react";
+import { StatusBadge } from "@/components/status-badge";
 
 // Animated counter component
 function Counter({ end, suffix = "", duration = 2000 }: { end: number, suffix?: string, duration?: number }) {
@@ -25,12 +26,12 @@ function Counter({ end, suffix = "", duration = 2000 }: { end: number, suffix?: 
 
 export default function Impact() {
   const metrics = [
-    { label: "Countries Served", value: 142, icon: <Globe className="w-5 h-5" /> },
-    { label: "Children Helped", value: 2500000, suffix: "+", icon: <Users className="w-5 h-5" /> },
+    { label: "Countries to Serve", value: 142, icon: <Globe className="w-5 h-5" /> },
+    { label: "Children Supported", value: 2500000, suffix: "+", icon: <Users className="w-5 h-5" /> },
     { label: "Trees Planted", value: 10000000, suffix: "+", icon: <TreePine className="w-5 h-5" /> },
-    { label: "Meals Served", value: 50000000, suffix: "+", icon: <Utensils className="w-5 h-5" /> },
-    { label: "Scholarships", value: 150000, icon: <BookOpen className="w-5 h-5" /> },
-    { label: "Schools Built", value: 1200, icon: <Building2 className="w-5 h-5" /> },
+    { label: "Meals Provided", value: 50000000, suffix: "+", icon: <Utensils className="w-5 h-5" /> },
+    { label: "Scholarships Funded", value: 150000, icon: <BookOpen className="w-5 h-5" /> },
+    { label: "Schools Established", value: 1200, icon: <Building2 className="w-5 h-5" /> },
     { label: "Hospitals Supported", value: 450, icon: <HeartPulse className="w-5 h-5" /> },
     { label: "Water Projects", value: 3400, icon: <Droplets className="w-5 h-5" /> },
     { label: "Technology Donated", value: 850000, icon: <Cpu className="w-5 h-5" /> },
@@ -40,7 +41,7 @@ export default function Impact() {
   return (
     <div className="w-full bg-background min-h-screen">
       {/* Header */}
-      <section className="relative pt-32 pb-24 overflow-hidden">
+      <section className="relative pt-32 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="/impact-bg.png" 
@@ -51,12 +52,17 @@ export default function Impact() {
         </div>
 
         <div className="relative z-10 container mx-auto px-6 md:px-12 text-center max-w-4xl animate-in fade-in slide-in-from-bottom-8 duration-1000">
-          <span className="text-primary uppercase tracking-[0.4em] text-sm font-semibold mb-6 block">Real-Time Dashboard</span>
+          <div className="flex justify-center mb-6">
+            <StatusBadge status="vision" />
+          </div>
+          <span className="text-primary uppercase tracking-[0.4em] text-sm font-semibold mb-6 block">Long-Term Vision</span>
           <h1 className="font-serif text-5xl md:text-7xl font-medium mb-8 text-foreground">
-            Global <span className="text-gradient-gold">Impact</span>
+            Global <span className="text-gradient-gold">Impact Goals</span>
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed font-light">
-            Measuring our commitment to humanity. Numbers that represent lives changed, futures secured, and a planet preserved.
+            The Easaan Foundation has not yet commenced humanitarian operations. The figures below are not results —
+            they are the scale of ambition the Foundation aspires to reach over future decades, through sustained
+            execution once the underlying institutions and enterprises are established.
           </p>
         </div>
       </section>
@@ -67,8 +73,11 @@ export default function Impact() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {metrics.map((metric, i) => (
               <div key={i} className="glass-card p-8 flex flex-col justify-between group hover:border-primary/40 transition-colors">
-                <div className="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  {metric.icon}
+                <div className="flex items-center justify-between mb-6">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center group-hover:scale-110 transition-transform">
+                    {metric.icon}
+                  </div>
+                  <span className="text-[9px] uppercase tracking-widest text-muted-foreground/50 font-semibold">Target</span>
                 </div>
                 <div>
                   <h3 className="text-3xl md:text-4xl font-serif text-foreground mb-2">
@@ -80,9 +89,10 @@ export default function Impact() {
             ))}
           </div>
           
-          <div className="mt-16 text-center">
-             <p className="text-xs text-muted-foreground/50 uppercase tracking-widest">
-               * Illustrative metrics demonstrating the scale of the Foundation's perpetual vision.
+          <div className="mt-16 max-w-2xl mx-auto text-center">
+             <p className="text-xs text-muted-foreground/50 uppercase tracking-widest leading-relaxed">
+               Long-Term Vision — Illustrative aspirational targets. No funds have been disbursed, no programs
+               are currently active, and no figure above reflects a completed or ongoing initiative.
              </p>
           </div>
         </div>

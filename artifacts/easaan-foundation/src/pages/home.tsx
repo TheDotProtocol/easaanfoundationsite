@@ -61,8 +61,9 @@ export default function Home() {
             <p className="text-muted-foreground leading-relaxed text-lg">
               The Foundation Philosophy is simple: every stage of life should be supported. 
               From the moment a child is born, through their education, their career, 
-              their health, and their legacy—we build companies around each stage to ensure 
-              humanity thrives. Profits flow back into education, healthcare, technology, 
+              their health, and their legacy, the Foundation intends to build enterprises 
+              around each stage to help humanity thrive. As those enterprises mature, 
+              profits are designed to flow back into education, healthcare, technology, 
               and humanitarian causes.
             </p>
           </div>

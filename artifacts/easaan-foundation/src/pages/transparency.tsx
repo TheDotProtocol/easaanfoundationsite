@@ -1,43 +1,68 @@
 import { FileText, Users, Building, ShieldCheck, Scale, ScrollText } from "lucide-react";
+import { StatusBadge, StatusLegend, type StatusLevel } from "@/components/status-badge";
 
 export default function Transparency() {
-  const sections = [
+  const sections: { title: string; icon: React.ReactNode; items: { name: string; status: StatusLevel }[] }[] = [
     {
       title: "Governance & Board",
       icon: <Users className="w-6 h-6" />,
-      items: ["Board of Directors", "Executive Trustees", "Advisory Council"]
+      items: [
+        { name: "Board of Directors", status: "implementation" },
+        { name: "Executive Trustees", status: "implementation" },
+        { name: "Advisory Council", status: "roadmap" },
+      ]
     },
     {
       title: "Financial Integrity",
       icon: <FileText className="w-6 h-6" />,
-      items: ["Public Financial Statements", "Annual Reports", "Independent Audits"]
+      items: [
+        { name: "Public Financial Statements", status: "roadmap" },
+        { name: "Annual Reports", status: "roadmap" },
+        { name: "Independent Audits", status: "roadmap" },
+      ]
     },
     {
       title: "Institutional Structure",
       icon: <Building className="w-6 h-6" />,
-      items: ["Corporate Architecture", "Operating Divisions", "Subsidiary Governance"]
+      items: [
+        { name: "Corporate Architecture", status: "implementation" },
+        { name: "Operating Divisions", status: "vision" },
+        { name: "Subsidiary Governance", status: "roadmap" },
+      ]
     },
     {
       title: "Charters & Policies",
       icon: <ScrollText className="w-6 h-6" />,
-      items: ["The Foundation Charter", "Code of Ethics", "Sustainability Mandate"]
+      items: [
+        { name: "The Foundation Charter", status: "implementation" },
+        { name: "Code of Ethics", status: "implementation" },
+        { name: "Sustainability Mandate", status: "roadmap" },
+      ]
     },
     {
       title: "Compliance",
       icon: <ShieldCheck className="w-6 h-6" />,
-      items: ["Regulatory Filings", "Global Compliance Standards", "Risk Management"]
+      items: [
+        { name: "Regulatory Filings", status: "roadmap" },
+        { name: "Global Compliance Standards", status: "roadmap" },
+        { name: "Risk Management", status: "implementation" },
+      ]
     },
     {
       title: "Legal Framework",
       icon: <Scale className="w-6 h-6" />,
-      items: ["Trust Deeds", "Perpetual Trust Structure", "Beneficiary Rights"]
+      items: [
+        { name: "Trust Deeds", status: "implementation" },
+        { name: "Perpetual Trust Structure", status: "roadmap" },
+        { name: "Beneficiary Rights", status: "implementation" },
+      ]
     }
   ];
 
   return (
     <div className="w-full bg-background min-h-screen">
       {/* Header */}
-      <section className="relative pt-32 pb-24 overflow-hidden">
+      <section className="relative pt-32 pb-16 overflow-hidden">
          <div className="absolute inset-0 z-0">
           <img 
             src="/transparency-bg.png" 
@@ -52,9 +77,11 @@ export default function Transparency() {
           <h1 className="font-serif text-5xl md:text-7xl font-medium mb-8 text-foreground">
             Transparency & <span className="text-gradient-gold">Governance</span>
           </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed font-light">
-            A 200-year institution must be built on unwavering trust. We operate with radical transparency, governed by a charter that preserves our core values across generations.
+          <p className="text-lg text-muted-foreground leading-relaxed font-light mb-10">
+            A 200-year institution must be built on unwavering trust. Confidence comes from precision, not
+            exaggeration — every item below is labeled according to its true, current status.
           </p>
+          <StatusLegend />
         </div>
       </section>
 
@@ -73,9 +100,9 @@ export default function Transparency() {
                 
                 <ul className="space-y-4">
                   {section.items.map((item, j) => (
-                    <li key={j} className="flex items-center justify-between group cursor-not-allowed">
-                      <span className="text-muted-foreground group-hover:text-foreground transition-colors font-light tracking-wide">{item}</span>
-                      <span className="text-[10px] uppercase tracking-widest text-primary/40 border border-primary/20 px-2 py-1 rounded-sm">Confidential</span>
+                    <li key={j} className="flex items-center justify-between gap-3 group">
+                      <span className="text-muted-foreground group-hover:text-foreground transition-colors font-light tracking-wide">{item.name}</span>
+                      <StatusBadge status={item.status} />
                     </li>
                   ))}
                 </ul>
@@ -86,7 +113,10 @@ export default function Transparency() {
           <div className="mt-20 p-10 border border-primary/20 glass-card text-center max-w-3xl mx-auto">
              <h3 className="font-serif text-2xl text-foreground mb-4">The Guardian Mandate</h3>
              <p className="text-muted-foreground font-light leading-relaxed">
-               Upon reaching the age of 21, Easaan assumes the role of Guardian and Chairman. This transfer of authority is bound by the Foundation Charter, ensuring that the institution's wealth and influence are perpetually directed toward the betterment of humanity, guided by Kindness, Integrity, and Compassion.
+               Upon reaching the age of 21, Easaan is intended to assume the role of Guardian and Chairman. This
+               planned transfer of authority will be bound by the Foundation Charter, currently under development,
+               with the intention that the institution's future wealth and influence be perpetually directed
+               toward the betterment of humanity, guided by Kindness, Integrity, and Compassion.
              </p>
           </div>
         </div>

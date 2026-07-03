@@ -5,10 +5,10 @@ const milestones = [
   { year: "Phase II", title: "The Miracle", desc: "The arrival of Easaan. A profound shift in perspective—from building a life to building a legacy." },
   { year: "Phase III", title: "The Dream", desc: "The realization that true wealth is not accumulated, but distributed through purpose and education." },
   { year: "Phase IV", title: "The Family", desc: "Instilling the core values: Kindness, Integrity, Innovation, and Service Before Self." },
-  { year: "Phase V", title: "AR Holdings", desc: "The establishment of the initial corporate structure, designed for stability and sustainable growth." },
-  { year: "Phase VI", title: "Building the Future", desc: "Expanding the ecosystem across technology, healthcare, and education to serve every life stage." },
-  { year: "Phase VII", title: "The Easaan Foundation", desc: "The formalization of the perpetual institution. A 200-year vision committed to humanity." },
-  { year: "Phase VIII", title: "The Transfer at Age 21", desc: "Easaan assumes the role of Guardian and Chairman, bearing the responsibility of millions." },
+  { year: "Phase V", title: "AR Holdings", desc: "The initial corporate structure begins taking shape, designed for stability and sustainable growth." },
+  { year: "Phase VI", title: "Building the Future", desc: "A roadmap for an ecosystem across technology, healthcare, and education, to serve every life stage." },
+  { year: "Phase VII", title: "The Easaan Foundation", desc: "The founding vision for a perpetual institution — a 200-year commitment to humanity, now underway." },
+  { year: "Phase VIII", title: "The Transfer at Age 21", desc: "Easaan is intended to assume the role of Guardian and Chairman, bearing the responsibility of millions." },
   { year: "Phase IX", title: "The Next Generation", desc: "A perpetual cycle of innovation and compassion, echoing through centuries to come." },
 ];
 

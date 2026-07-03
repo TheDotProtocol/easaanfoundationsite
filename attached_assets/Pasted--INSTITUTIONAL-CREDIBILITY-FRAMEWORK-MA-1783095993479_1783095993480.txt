@@ -1,0 +1,263 @@
+############################################################
+INSTITUTIONAL CREDIBILITY FRAMEWORK (MANDATORY)
+############################################################
+
+This website must be written to institutional standards.
+
+Every statement must belong to one of four clearly defined categories.
+
+The website architecture, wording, navigation, dashboards and every portfolio company page must distinguish between these categories visually and structurally.
+
+Never mix them.
+
+============================================================
+CATEGORY 01
+ESTABLISHED OPERATIONS
+============================================================
+
+Purpose:
+
+Present only entities, assets, projects, intellectual property, platforms, technologies and corporate activities that currently exist and can be truthfully represented.
+
+Examples include:
+
+• Registered companies
+• Existing websites
+• Active software platforms
+• Released products
+• Existing brands
+• Existing intellectual property
+• Operational technology
+• Published whitepapers
+• Existing business divisions
+
+Use language such as
+
+"Currently Operational"
+
+"Established"
+
+"Active"
+
+"Institutional Asset"
+
+"Operational Division"
+
+Never imply future projects are operational.
+
+============================================================
+CATEGORY 02
+ACTIVE IMPLEMENTATION
+============================================================
+
+Purpose:
+
+Display projects presently under execution.
+
+These are real initiatives where planning, engineering, legal, regulatory, manufacturing or strategic development is actively underway.
+
+Examples
+
+Manufacturing negotiations
+
+Supply chain development
+
+Prototype engineering
+
+Regulatory applications
+
+Corporate registrations
+
+Technology development
+
+Strategic partnerships
+
+Brand registrations
+
+Infrastructure deployment
+
+Use wording such as
+
+"Currently Under Implementation"
+
+"Active Development"
+
+"Engineering Phase"
+
+"Regulatory Phase"
+
+"Implementation Programme"
+
+"Ongoing Strategic Initiative"
+
+Do not describe these projects as launched.
+
+============================================================
+CATEGORY 03
+STRATEGIC ROADMAP
+============================================================
+
+Purpose
+
+Display projects approved within the Foundation's long-term institutional strategy.
+
+These represent future expansion priorities.
+
+Examples
+
+Future product lines
+
+Future subsidiaries
+
+Future international expansion
+
+Future manufacturing
+
+Future educational institutions
+
+Future banking platforms
+
+Future research institutes
+
+Future healthcare systems
+
+Label these clearly as
+
+"Strategic Roadmap"
+
+"Future Enterprise"
+
+"Long-Term Programme"
+
+"Expansion Initiative"
+
+"Planned Development"
+
+"Future Portfolio"
+
+Avoid wording that suggests current availability.
+
+============================================================
+CATEGORY 04
+LONG-TERM VISION
+============================================================
+
+Purpose
+
+Communicate the constitutional vision of the Foundation over decades rather than immediate execution.
+
+Examples
+
+Global humanitarian impact
+
+Worldwide educational ecosystem
+
+Research institutions
+
+Technology leadership
+
+Environmental restoration
+
+Future generations
+
+Intergenerational stewardship
+
+Institutional continuity
+
+Global collaboration
+
+Use aspirational language while clearly identifying these as long-term objectives.
+
+Examples
+
+"Our long-term vision..."
+
+"The Foundation seeks..."
+
+"The institution aims to..."
+
+"Over future decades..."
+
+"Through sustained execution..."
+
+Never present vision as completed reality.
+
+############################################################
+
+VISUAL PRESENTATION
+
+############################################################
+
+Every page should clearly indicate the status of each initiative.
+
+Create premium institutional badges.
+
+Example
+
+● Operational
+
+● Under Implementation
+
+● Strategic Roadmap
+
+● Vision
+
+Each badge should have a different colour and explanatory tooltip.
+
+Users should instantly understand whether an initiative exists today, is currently being developed, is planned, or represents the Foundation's long-term constitutional vision.
+
+############################################################
+
+INSTITUTIONAL LANGUAGE
+
+############################################################
+
+The website must never exaggerate.
+
+Never imply ownership where ownership has not yet been established.
+
+Never imply commercial launch where launch has not yet occurred.
+
+Never imply regulatory approval where approval has not yet been granted.
+
+Never imply partnerships unless they exist.
+
+Never imply revenue unless generated.
+
+The Foundation should be presented as an institution that values transparency, governance, accountability and disciplined execution.
+
+Confidence must come from precision, not exaggeration.
+
+############################################################
+
+VISITOR EXPERIENCE
+
+############################################################
+
+A visitor should leave with the following impression:
+
+"This institution has a clear governance model."
+
+"They understand execution."
+
+"They distinguish vision from reality."
+
+"They appear credible."
+
+"They appear professionally managed."
+
+"They have an ambitious but disciplined long-term strategy."
+
+"The organisation communicates like a mature global institution rather than a startup."
+
+############################################################
+
+OVERALL OBJECTIVE
+
+############################################################
+
+Build a website comparable in presentation quality to leading international institutions.
+
+Every section should reinforce professionalism, institutional governance, transparency, strategic planning and long-term stewardship.
+
+The final product should inspire confidence among prospective partners, manufacturers, investors, regulators and the public by demonstrating clarity, structure and responsible communication.
