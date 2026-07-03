@@ -53,9 +53,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
         }`}
       >
         <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-          <Link href="/" className="flex flex-col">
-            <span className="font-serif text-2xl tracking-widest text-gradient-gold font-semibold uppercase">EASAAN</span>
-            <span className="text-[0.6rem] tracking-[0.3em] text-muted-foreground uppercase">Foundation</span>
+          <Link href="/" className="flex items-center gap-3">
+            <img src="/easaan-logo.png" alt="Easaan Foundation" className="h-10 w-auto object-contain" />
+            <span className="flex flex-col">
+              <span className="font-serif text-xl tracking-widest text-gradient-gold font-semibold uppercase leading-tight">EASAAN</span>
+              <span className="text-[0.55rem] tracking-[0.3em] text-muted-foreground uppercase">Foundation</span>
+            </span>
           </Link>
 
           {/* Desktop Nav */}
@@ -112,9 +115,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-14">
             {/* Left */}
             <div>
-              <Link href="/" className="flex flex-col mb-6">
-                <span className="font-serif text-2xl tracking-widest text-gradient-gold font-semibold uppercase">EASAAN</span>
-                <span className="text-[0.6rem] tracking-[0.3em] text-muted-foreground uppercase">Foundation</span>
+              <Link href="/" className="flex items-center gap-3 mb-6">
+                <img src="/easaan-logo.png" alt="Easaan Foundation" className="h-10 w-auto object-contain" />
+                <span className="flex flex-col">
+                  <span className="font-serif text-xl tracking-widest text-gradient-gold font-semibold uppercase leading-tight">EASAAN</span>
+                  <span className="text-[0.55rem] tracking-[0.3em] text-muted-foreground uppercase">Foundation</span>
+                </span>
               </Link>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 &copy; {new Date().getFullYear()} Easaan Foundation.<br />

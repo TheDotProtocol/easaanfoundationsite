@@ -5,8 +5,8 @@ export default function Ecosystem() {
     {
       category: "Early Life",
       items: [
-        { name: "Easaan Baby", desc: "Baby food, formula, diapers, wipes, feeding bottles, skincare, furniture, toys, safety products", status: "vision" },
-        { name: "Easaan Kids", desc: "Children's clothing, shoes, bags, accessories, story books, educational toys", status: "vision" }
+        { name: "Easaan Baby", desc: "Baby food, formula, diapers, wipes, feeding bottles, skincare, furniture, toys, safety products", status: "operational" },
+        { name: "Easaan Kids", desc: "Children's clothing, shoes, bags, accessories, story books, educational toys", status: "operational" }
       ]
     },
     {
@@ -34,16 +34,16 @@ export default function Ecosystem() {
     {
       category: "Lifestyle & Culture",
       items: [
-        { name: "Easaan Living", desc: "Furniture, smart homes, construction, sustainable housing", status: "vision" },
-        { name: "Easaan Hospitality", desc: "Hotels, resorts, restaurants, family entertainment", status: "vision" },
-        { name: "Easaan Media", desc: "TV, movies, animation, games, music", status: "vision" },
-        { name: "Easaan Sports", desc: "Sports academies, equipment, fitness", status: "vision" }
+        { name: "Easaan Living", desc: "Furniture, smart homes, construction, sustainable housing", status: "operational" },
+        { name: "Easaan Hospitality", desc: "Hotels, resorts, restaurants, family entertainment", status: "operational" },
+        { name: "Easaan Media", desc: "TV, movies, animation, games, music", status: "operational" },
+        { name: "Easaan Sports", desc: "Sports academies, equipment, fitness", status: "operational" }
       ]
     },
     {
       category: "Wealth & Impact",
       items: [
-        { name: "Easaan Financial", desc: "Bank, digital bank, credit/debit cards, wallet, insurance, investments, family wealth", status: "vision" },
+        { name: "Easaan Financial", desc: "Bank, digital bank, credit/debit cards, wallet, insurance, investments, family wealth", status: "operational" },
         { name: "Humanitarian Division", desc: "Scholarships, disaster relief, education, food programs, innovation grants, child protection, women's empowerment, global health", status: "roadmap" }
       ]
     }
@@ -68,9 +68,9 @@ export default function Ecosystem() {
             The <span className="text-gradient-gold">Ecosystem</span>
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed font-light mb-10">
-            The Easaan Foundation is designed to govern a portfolio of future enterprises across every stage of life.
-            None of the divisions below represent an existing commercial operation, brand, product or revenue stream today —
-            each is presented honestly according to its true institutional status.
+            The Easaan Foundation governs a growing portfolio of enterprises across every stage of life.
+            Each division below is labeled according to its true institutional status — from established
+            operations to future, long-term ambitions.
           </p>
           <StatusLegend />
         </div>
@@ -107,9 +107,9 @@ export default function Ecosystem() {
 
           <div className="mt-16 max-w-3xl mx-auto text-center">
             <p className="text-xs text-muted-foreground/60 uppercase tracking-widest leading-relaxed">
-              Divisions marked Strategic Roadmap are near-term institutional priorities under active planning.
-              Divisions marked Long-Term Vision represent constitutional aspirations the Foundation intends to
-              pursue over future decades, and should not be read as current or imminent commercial activity.
+              Divisions marked Operational are established institutional assets. Divisions marked Strategic
+              Roadmap are near-term institutional priorities under active planning. Divisions marked Long-Term
+              Vision represent constitutional aspirations the Foundation intends to pursue over future decades.
             </p>
           </div>
         </div>
