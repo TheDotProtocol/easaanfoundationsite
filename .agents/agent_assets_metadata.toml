@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "vMc3sY2UcDsrIHR8enh1o"
+uri = "file://artifacts/easaan-foundation/public/hero-bg.png"
+type = "image"
+title = "Hero abstract golden light"
+
+[[generated]]
+id = "Ll9pRCkpPVWgg7-UuVcgO"
+uri = "file://artifacts/easaan-foundation/public/founders-bg.png"
+type = "image"
+title = "Abstract glowing golden rings"
+
+[[generated]]
+id = "5z5dedOcK9ORnWyWeuofp"
+uri = "file://artifacts/easaan-foundation/public/ecosystem-bg.png"
+type = "image"
+title = "Abstract network glowing nodes"
+
+[[generated]]
+id = "7tFhjogzC5H0NlnHm_iuL"
+uri = "file://artifacts/easaan-foundation/public/impact-bg.png"
+type = "image"
+title = "Abstract global data network"
+
+[[generated]]
+id = "UrYPYixqeo_mO2FeSqe6J"
+uri = "file://artifacts/easaan-foundation/public/transparency-bg.png"
+type = "image"
+title = "Abstract monumental columns architecture"
