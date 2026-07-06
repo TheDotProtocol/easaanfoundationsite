@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm --filter @workspace/easaan-foundation run build",
+  "installCommand": "pnpm install",
+  "outputDirectory": "artifacts/easaan-foundation/dist/public",
+  "framework": null,
+  "rewrites": [
+    { "handle": "filesystem" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
