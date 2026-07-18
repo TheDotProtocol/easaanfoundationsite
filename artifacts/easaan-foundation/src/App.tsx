@@ -12,6 +12,7 @@ import Founders from "@/pages/founders";
 import Ecosystem from "@/pages/ecosystem";
 import Impact from "@/pages/impact";
 import Transparency from "@/pages/transparency";
+import Institute from "@/pages/institute";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/story" component={Story} />
+        <Route path="/institute" component={Institute} />
         <Route path="/founders" component={Founders} />
         <Route path="/ecosystem" component={Ecosystem} />
         <Route path="/impact" component={Impact} />

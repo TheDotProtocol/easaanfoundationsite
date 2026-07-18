@@ -2,6 +2,12 @@ import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
+type NavLink = {
+  name: string;
+  path: string;
+  subtitle?: string;
+};
+
 export function Layout({ children }: { children: React.ReactNode }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -20,17 +26,19 @@ export function Layout({ children }: { children: React.ReactNode }) {
     document.documentElement.classList.add('dark');
   }, []);
 
-  const navLinks = [
+  const navLinks: NavLink[] = [
     { name: "Home", path: "/" },
-    { name: "The Story", path: "/story" },
+    { name: "About", path: "/story" },
+    { name: "Easaan Institute", path: "/institute", subtitle: "Dreamers & Builders" },
     { name: "Leadership", path: "/founders" },
-    { name: "Ecosystem", path: "/ecosystem" },
+    { name: "Portfolio", path: "/ecosystem" },
     { name: "Global Impact", path: "/impact" },
     { name: "Governance", path: "/transparency" },
   ];
 
-  const footerNavLinks = [
+  const footerNavLinks: NavLink[] = [
     { name: "About", path: "/story" },
+    { name: "Easaan Institute", path: "/institute" },
     { name: "Leadership & Governance", path: "/founders" },
     { name: "Institutional Charter", path: "/transparency" },
     { name: "Portfolio", path: "/ecosystem" },
@@ -62,16 +70,21 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex gap-8 items-center">
+          <nav className="hidden lg:flex gap-6 xl:gap-8 items-center">
             {navLinks.map((link) => (
               <Link 
                 key={link.path} 
                 href={link.path}
-                className={`text-sm uppercase tracking-widest transition-colors duration-300 hover:text-primary ${
+                className={`group relative flex flex-col items-center text-sm uppercase tracking-widest transition-colors duration-300 hover:text-primary ${
                   location === link.path ? "text-primary" : "text-muted-foreground"
                 }`}
               >
-                {link.name}
+                <span>{link.name}</span>
+                {link.subtitle && (
+                  <span className="absolute top-full mt-1 whitespace-nowrap text-[9px] normal-case tracking-[0.2em] text-primary/80 opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 pointer-events-none">
+                    {link.subtitle}
+                  </span>
+                )}
               </Link>
             ))}
           </nav>
@@ -94,11 +107,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
               key={link.path} 
               href={link.path}
               onClick={() => setMobileMenuOpen(false)}
-              className={`font-serif text-2xl tracking-widest uppercase transition-colors duration-300 ${
+              className={`flex flex-col items-center transition-colors duration-300 ${
                 location === link.path ? "text-primary" : "text-foreground"
               }`}
             >
-              {link.name}
+              <span className="font-serif text-2xl tracking-widest uppercase">{link.name}</span>
+              {link.subtitle && (
+                <span className="text-xs tracking-[0.25em] text-primary/70 mt-2 normal-case">
+                  {link.subtitle}
+                </span>
+              )}
             </Link>
           ))}
         </div>
